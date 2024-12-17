@@ -12,6 +12,7 @@ steps to use
   'images/walls.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/walls.png',
 
 7) It should look like this:
+
 // A note on CORS: When overriding UI images, you might get an error like "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at [...]".
 // If so, you need to host the images somewhere that sends the necessary CORS headers.
 // In the examples below, I'm using a weird GitLab API url instead of the normal GitLab raw url to work around this.
@@ -24,6 +25,6 @@ window.texturepackOverrides = {
   'images/walls.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/walls.png',
 }
 
-8) Save it and reload Isleward. Make sure the extension is turned on
+9) Save it and reload Isleward. Make sure the extension is turned on
 
 
