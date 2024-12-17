@@ -14,12 +14,17 @@ steps to use
 7) It should look like this:
 
 window.texturepackOverrides = {
-  // Renderer examples:
+
   'images/tiles.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/tiles%20(1).png',
+  
   'images/bigObjects.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/bigObjects.png',
+  
   'images/mobs.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/mobs.png',
+  
   'images/animMob.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/animMob.png',
+  
   'images/walls.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/walls.png',
+  
 }
 
 9) Save it and reload Isleward. Make sure the extension is turned on
