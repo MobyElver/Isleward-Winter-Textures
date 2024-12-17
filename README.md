@@ -13,9 +13,6 @@ steps to use
 
 7) It should look like this:
 
-// A note on CORS: When overriding UI images, you might get an error like "Cross-Origin Request Blocked: The Same Origin Policy disallows reading the remote resource at [...]".
-// If so, you need to host the images somewhere that sends the necessary CORS headers.
-// In the examples below, I'm using a weird GitLab API url instead of the normal GitLab raw url to work around this.
 window.texturepackOverrides = {
   // Renderer examples:
   'images/tiles.png': 'https://raw.githubusercontent.com/MobyElver/Isleward-Winter-Textures/refs/heads/main/tiles%20(1).png',
